@@ -3,7 +3,7 @@ Contributors: graphicscove
 Tags: REST api, Updates, Plugin Updates, Theme Updates
 Requires at least: 4.7
 Tested up to: 4.7.1
-Stable tag: 0.0.1
+Stable tag: 0.0.2
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -27,7 +27,15 @@ None
 
 == Changelog ==
 
-= 1.0 =
+= 0.0.2 =
+* Changed directory and plugin name
+* Added an index.php to avoid directory listing
+* Stopped file being loaded directly
+* Added a route for /wp-json/updates/v1/core
+* Corrected spelling in comment - 'themes' not 'themess'
+* All routes now produce full json output rather than just the number of updates available
+
+= 0.0.1 =
 * Initial version.
 
 == Roadmap ==
@@ -35,3 +43,7 @@ None
 * Only allow secure connections to avoid prying eyes
 * List out the names of plugins/themes available to update
 * Add /wp-json/updates/v1/core to get core update notifications
+
+== Contributions ==
+
+Contributions are always welcome. I'm not a backend developer so feel free to submit a pull request if you think anything could be done more efficiently, or help add in something on the roadmap!
