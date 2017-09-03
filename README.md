@@ -1,4 +1,4 @@
-# wp-update-endpoints
+# wp-updates-endpoint
 Adds additional endpoints to the WP REST API to expose the number of plugin and theme upgrades available
 
 **NOTE** This plugin is in an alpha stage and is really just for testing what's possible with the API. I don't recommend using this on a production environment as people will be able to see when you're running older versions of plugins and potentially exploit this! You have been warned..
