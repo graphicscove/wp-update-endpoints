@@ -1,7 +1,7 @@
 <?php
 /*
 Plugin Name: WP Updates Endpoint
-Plugin URI: http://graphicscove.io/updates-endpoint
+Plugin URI: http://graphicscove.github.io/updates-endpoint
 Description: Adds additional endpoints to the WP REST API to expose the number of plugin and theme upgrades available
 Author: Steven Noble
 Author URI: http://graphicscove.com
